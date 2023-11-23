@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Muhammed Anazil</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+   .photo{
+     display: block;
+  margin-left: 65%;
+  margin-top: -17%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+   }
+   @media (max-width:600px){
+  .photo{
+    margin-left: 10%;
+    margin-top: 10%;
+    -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  width: 39%;
+  }
+}
+</style>
+    </head>
+    <body>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div><br>
+          <div style="padding-left:36px">
+        <h2>ABOUT:</h2><br>
+        <h1>
+            <span>I am Muhammed Anazil T.A From Kerela,
+
+                Studying Diploma in computer engineering in wayanad,Mananthavady.
+                
+                Technical and computer based subjects is loved more than general subjects.
+                
+                Technical High School electrical and maintanece of domestic appliances trade education successfully acquired.</span>
+            <span class="parag">Also obtained National skill qualification frame work(NSQF)trade, greenhouse technology certificate.At the age of 15, obtained the Technical High School Leaving Certificate.
+            </span>
+          </h1>
+          </div>
+          <img class="photo" src="me.png" width="25%">
+          <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+            </script>
+    </body>
+</html>
